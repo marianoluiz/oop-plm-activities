@@ -7,7 +7,6 @@ public class Functions {
     // King, Mariano Luiz B.
     // Tulang, Timothy John L.
     
-    
     // 1. Display the area of a given circle.
     // Ex. Enter radius = 10
         // The area is 314.16

@@ -1,10 +1,7 @@
 package activity_2;
 
 public class ActivitiesOOP {
-
     public static void main(String[] args) {
-        
-        
         Functions clFunction = new Functions();
         
        System.out.printf("1A. Iterative Circle Area: %.2f\n", clFunction.itecirclearea(10));
@@ -20,7 +17,7 @@ public class ActivitiesOOP {
        System.out.println("4B. Recursive Reverse Digits: " + clFunction.recreversedigits(6578, 0));
        
        char[] arrayOfChar = {'h', 'e', 'l', 'l', 'o'};
-       char keyToSearch = 'p';
+       char keyToSearch = 'e';
        
        System.out.print("5A. Iterative Key Searching: ");
        if(clFunction.itesearchkey(keyToSearch, arrayOfChar))
@@ -28,16 +25,10 @@ public class ActivitiesOOP {
         else 
            System.out.println("`" + keyToSearch + "` is not found in the array");
        
-       
        System.out.print("5B. Recursive Key Searching: ");
        if(clFunction.recsearchkey(keyToSearch, arrayOfChar, 0))
            System.out.println("`" + keyToSearch + "` is found in the array");
         else
            System.out.println("`" + keyToSearch + "` is not found in the array");
-       
-       
-      
-        
     }
-    
 }
