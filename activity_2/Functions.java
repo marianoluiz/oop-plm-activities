@@ -2,7 +2,7 @@ package activity_2;
 
 public class Functions {
    
-    // BSCS 2-2 Sep. 07, 2024s
+    // BSCS 2-2 Sep. 07, 2024
     // Camacho, Daniel Hardy C.
     // King, Mariano Luiz B.
     // Tulang, Timothy John L.
