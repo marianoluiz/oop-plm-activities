@@ -119,8 +119,4 @@ public class Functions {
         else
             return recsearchkey(keyToSearch, arrayOfChar, intCounter + 1);
     }
-
-
 }
-    
-
