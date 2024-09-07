@@ -1,4 +1,4 @@
-package activitiesoop;
+package activity_2;
 
 public class ActivitiesOOP {
 
@@ -20,21 +20,21 @@ public class ActivitiesOOP {
        System.out.println("4B. Recursive Reverse Digits: " + clFunction.recreversedigits(6578, 0));
        
        char[] arrayOfChar = {'h', 'e', 'l', 'l', 'o'};
-       char keyToSearch = 'e';
+       char keyToSearch = 'p';
        
        System.out.print("5A. Iterative Key Searching: ");
-       if(clFunction.itesearchkey(keyToSearch, arrayOfChar)){
+       if(clFunction.itesearchkey(keyToSearch, arrayOfChar))
            System.out.println("`" + keyToSearch + "` is found in the array");
-       } else {
-           System.out.println("`" + keyToSearch + "` is found in the array");
-       }
+        else 
+           System.out.println("`" + keyToSearch + "` is not found in the array");
+       
        
        System.out.print("5B. Recursive Key Searching: ");
-       if(clFunction.recsearchkey(keyToSearch, arrayOfChar, 0)){
+       if(clFunction.recsearchkey(keyToSearch, arrayOfChar, 0))
            System.out.println("`" + keyToSearch + "` is found in the array");
-       } else {
+        else
            System.out.println("`" + keyToSearch + "` is not found in the array");
-       }
+       
        
       
         
