@@ -1,6 +1,6 @@
 package class_functions;
 
-// Constructor
+// Number 2 - Constructor
 
 public class Area {
   public String strShape = "Unknown";

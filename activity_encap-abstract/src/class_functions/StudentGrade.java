@@ -1,7 +1,6 @@
 package class_functions;
 
-// Setter & Getter
-
+// Number 1 - Setter & Getter
 public class StudentGrade {
   private String strLastName;
   private String strFirstName;
