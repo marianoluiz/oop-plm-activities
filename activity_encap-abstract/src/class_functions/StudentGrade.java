@@ -1,6 +1,6 @@
 package class_functions;
 
-// Number 1 - Setter & Getter
+// Number 1 - Encapsulation
 public class StudentGrade {
   private String strLastName;
   private String strFirstName;

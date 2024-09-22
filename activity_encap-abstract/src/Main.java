@@ -7,7 +7,7 @@ import implement_shapes.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         
-        // Number 1 - Overloading
+        // Number 1 - Encapsulation
         StudentGrade student = new StudentGrade();
         System.out.println("--------------------Number 1--------------------");
         student.setstrlastname("Doe");
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Subject Code: " + student.getstrsubjectcode());
         System.out.println("--------------------Number 1--------------------\n");
 
-        // Number 2 - Getter & Setter 
+        // Number 2 - Overloading Constructors
         System.out.println("--------------------Number 2--------------------");
         Area circleArea = new Area("Circle", 2);
         System.out.println("Shape: " + circleArea.strShape);
