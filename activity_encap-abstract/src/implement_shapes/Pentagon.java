@@ -1,6 +1,7 @@
 package implement_shapes;
 import class_functions.FigureInterface;
 
+// interface subclass
 public class Pentagon implements FigureInterface {
   @Override
   public int sides() {

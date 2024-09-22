@@ -2,13 +2,13 @@ package class_functions;
 
 // Number 1 - Encapsulation
 public class StudentGrade {
-  private String strLastName;
-  private String strFirstName;
-  private String strStudentNo;
-  private String strEmailAddress;
-  private String strCellPhoneNo;
-  private int intCourseGrade;
-  private String strSubjectCode;
+  private String strLastName = "";
+  private String strFirstName = "";
+  private String strStudentNo = "";
+  private String strEmailAddress = "";
+  private String strCellPhoneNo = "";
+  private int intCourseGrade = 0;
+  private String strSubjectCode = "";
 
   //strLastName
   public void setstrlastname(String strLastName) {

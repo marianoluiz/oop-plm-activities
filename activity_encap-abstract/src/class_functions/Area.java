@@ -1,13 +1,12 @@
 package class_functions;
 
 // Number 2 - Constructor
-
 public class Area {
-  public String strShape = "Unknown";
-  public double dblArea = 0;
-  public double dblRadius = 0;
-  public double dblWidth = 0;
-  public double dblLength = 0;
+  public String strShape;
+  public double dblArea;
+  public double dblRadius;
+  public double dblWidth;
+  public double dblLength;
 
   public Area() {
     this.strShape = "Unknown";
@@ -19,7 +18,7 @@ public class Area {
   // Circle with int radius
   public Area(String strShape, int intRadius) {
     this.strShape = strShape;
-    this.dblRadius = intRadius;
+    this.dblRadius = (double) intRadius;
     this.dblArea  = Math.PI * Math.pow(intRadius, 2);
   }
 

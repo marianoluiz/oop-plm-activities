@@ -1,6 +1,7 @@
 package implement_shapes;
 import class_functions.FigureAbstract;
 
+// abstract subclass
 public class Circle extends FigureAbstract {
   @Override
   public int sides() {

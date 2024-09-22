@@ -65,7 +65,7 @@ public class Main {
 
         System.out.println();
 
-        // Abstraction using Interface Class
+        // Abstraction using Interface
         Hexagon hexagon = new Hexagon();
         Pentagon pentagon = new Pentagon();
 
