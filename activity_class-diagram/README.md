@@ -1,7 +1,5 @@
 ## Activity Class Diagram
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
 ## Members
 
 - BALBOA, Marc Jerome
