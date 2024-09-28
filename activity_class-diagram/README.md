@@ -1,18 +1,19 @@
-## Getting Started
+## Activity Class Diagram
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## Members
 
-The workspace contains two folders by default, where:
+- BALBOA, Marc Jerome
+- Capiral, Luis Gabriel
+- King, Mariano Luiz
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
+- 1. `Functions.java`
+- 2. `UserFunctions.java`
+- 3. `AnimalAbstract.java`
+- 4. `Logarithmic.java`
+- 5. `AnimalInterface.java`
+- 6. `AnimalObject.java` - contains function bodies of `AnimalAbstract.java` and `AnimalInterface.java`. It also contains the objects.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `Main.java` - Output of the Project
