@@ -7,11 +7,11 @@
 - King, Mariano Luiz
 
 ## Project Structure
-- 1. `Functions.java`
-- 2. `UserFunctions.java`
-- 3. `AnimalAbstract.java`
-- 4. `Logarithmic.java`
-- 5. `AnimalInterface.java`
-- 6. `AnimalObject.java` - contains function bodies of `AnimalAbstract.java` and `AnimalInterface.java`. It also contains the objects.
+- `Functions.java`
+- `UserFunctions.java`
+- `AnimalAbstract.java`
+- `Logarithmic.java`
+- `AnimalInterface.java`
+- `AnimalObject.java` - contains function bodies of `AnimalAbstract.java` and `AnimalInterface.java`. It also contains the objects.
 
 - `Main.java` - Output of the Project
