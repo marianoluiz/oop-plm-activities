@@ -4,3 +4,5 @@
 .class
 
 dist
+/oopDb_GUI/build/
+/oopDb_GUI/nbproject/private/
